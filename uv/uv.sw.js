@@ -39,8 +39,8 @@ class UVServiceWorker extends EventEmitter {
         };
         this.statusCode = {
             empty: [ 
-                204,
-                304,
+                200,
+                300,
             ],
         };  
         this.config = config;
